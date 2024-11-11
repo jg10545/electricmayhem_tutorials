@@ -1,0 +1,15 @@
+patch,image,split,xmin,xmax,ymin,ymax
+hood,data/toycar/near_nadir_arc/080.png,train,380,443,295,327
+roof,data/toycar/near_nadir_arc/080.png,train,387,434,241,264
+roof,data/toycar/near_nadir_arc/090.png,eval,356,408,238,258
+hood,data/toycar/near_nadir_arc/090.png,eval,359,417,283,319
+hood,data/toycar/near_nadir_arc/063.png,train,390,454,283,315
+roof,data/toycar/near_nadir_arc/063.png,train,402,451,234,254
+hood,data/toycar/near_nadir_arc/073.png,eval,387,451,287,323
+roof,data/toycar/near_nadir_arc/073.png,eval,397,445,235,259
+hood,data/toycar/near_nadir_arc/068.png,eval,390,454,280,314
+roof,data/toycar/near_nadir_arc/068.png,eval,403,451,235,254
+hood,data/toycar/near_nadir_arc/065.png,train,390,452,279,313
+roof,data/toycar/near_nadir_arc/065.png,train,403,451,232,250
+roof,data/toycar/near_nadir_arc/081.png,train,384,433,247,265
+hood,data/toycar/near_nadir_arc/081.png,train,379,443,294,326
