@@ -9,26 +9,36 @@ This notebook walks through a simple example; training a set of black-and-white 
 
 ## `02_overview_of_create_stages.ipynb` 
 
-Tools for preprocessing a patch before implanting- such as resizing, stacking channels, or soft-proofing
+Tools for preprocessing a patch before implanting- such as resizing, stacking channels, or soft-proofing.
 
 ## `03_overview_of_implant_stages.ipynb`
 
-Tools for differentiably pasting a patch into an image
+Tools for differentiably pasting a patch into an image.
 
 ![example patch from notebook 03](docs/implant_example.png)
 
 ## `04_overview_of_compose_stages.ipynb`
 
-*COMING SOON*
+*NOT YET WRITTEN*. The only real compose tool currently in `electricmayhem` is `em.KorniaAugmentationPipeline`, which is just a pass-through to the amazing `kornia` library. There's room here for more tailored pipeline stages, but the ability to call any combination of `kornia` augmentations has been enough flexibility for everything I've worked on so far.
 
 ## `05_overview_of_infer_stages.ipynb`
 
-*COMING SOON*
+Mostly an explanation of how the code handles different YOLO model types.
 
 ## `06_ensembles_and_transfer_attacks.ipynb`
 
+Train a patch using an ensemble of two models, then evaluate how well it transfers to a third model.
+
 ## `07_bayesian_optimization.ipynb`
+
+Let's try to turn the attack from CVPR2024's *Overload: Latency Attacks on Object Detection for Edge Devices* by Chen *et al* into a physical patch attack. "Overload" exploits the quadratic scaling of non-maximum suppression to try and slow the postprocessing phase of inference down by generating a lot of overlapping detections.
+
+If we want to optimize on the NMS wall time, one approach would be to use that as an objective for Bayesian optimization. For this initial test, the optimization approach increases the number of boxes and NMS wall time, though probably not enough to be practical:
 
 ![example patch from notebook 07](docs/notebook_07_boxcount.png)
 ![example patch from notebook 07](docs/notebook_07_nms_time.png)
 ![example patch from notebook 07](docs/notebook_07_latency_attack_image.png)
+
+## `08_extending_electricmayhem.ipynb`
+
+*COMING SOON*
