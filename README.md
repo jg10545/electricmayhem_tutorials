@@ -16,3 +16,19 @@ Tools for preprocessing a patch before implanting- such as resizing, stacking ch
 Tools for differentiably pasting a patch into an image
 
 ![example patch from notebook 03](docs/implant_example.png)
+
+## `04_overview_of_compose_stages.ipynb`
+
+*COMING SOON*
+
+## `05_overview_of_infer_stages.ipynb`
+
+*COMING SOON*
+
+## `06_ensembles_and_transfer_attacks.ipynb`
+
+## `07_bayesian_optimization.ipynb`
+
+![example patch from notebook 07](docs/notebook_07_boxcount.png)
+![example patch from notebook 07](docs/notebook_07_nms_time.png)
+![example patch from notebook 07](docs/notebook_07_latency_attack_image.png)
