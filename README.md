@@ -39,6 +39,16 @@ If we want to optimize on the NMS wall time, one approach would be to use that a
 ![example patch from notebook 07](docs/notebook_07_nms_time.png)
 ![example patch from notebook 07](docs/notebook_07_latency_attack_image.png)
 
-## `08_extending_electricmayhem.ipynb`
+## `08_???.ipynb`
 
 *COMING SOON*
+
+## `09_???.ipynb`
+
+*COMING SOON*
+
+## `10_extending_electricmayhem.ipynb`
+
+`electricmayhem` is intended to be easy to customize! Every pipeline stage inherits from a `PipelineBase` class; this notebook walks through how to subclass `PipelineBase` to make your own bespoke stage.
+
+
