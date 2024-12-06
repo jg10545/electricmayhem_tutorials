@@ -19,7 +19,10 @@ Tools for differentiably pasting a patch into an image.
 
 ## `04_overview_of_compose_stages.ipynb`
 
-*NOT YET WRITTEN*. The only real compose tool currently in `electricmayhem` is `em.KorniaAugmentationPipeline`, which is just a pass-through to the amazing `kornia` library. There's room here for more tailored pipeline stages, but the ability to call any combination of `kornia` augmentations has been enough flexibility for everything I've worked on so far.
+Tools for applying differentiable augmentations and perspective tilting:
+
+![example patch from notebook 07](docs/notebook_04_aug_example.png)
+![example patch from notebook 07](docs/notebook_04_tilt_example.png)
 
 ## `05_overview_of_infer_stages.ipynb`
 
