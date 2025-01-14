@@ -61,8 +61,10 @@ The `electricmayhem.blackbox` module is no longer being maintained, but here's a
 
 6.4k steps:
 ![](docs/blackbox_6460_steps.png)
+
 33.4k steps:
 ![](docs/blackbox_33440_steps.png)
+
 43.4k steps:
 ![](docs/blackbox_43430_steps.png)
 
