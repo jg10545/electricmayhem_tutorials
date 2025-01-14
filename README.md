@@ -55,3 +55,15 @@ If we want to optimize on the NMS wall time, one approach would be to use that a
 `electricmayhem` is intended to be easy to customize! Every pipeline stage inherits from a `PipelineBase` class; this notebook walks through how to subclass `PipelineBase` to make your own bespoke stage.
 
 
+## Bonus: `blackbox_attack_with_GRAPHITE.ipynb`
+
+The `electricmayhem.blackbox` module is no longer being maintained, but here's a working example showing how to train a patch with GRAPHITE.
+
+6.4k steps:
+![](docs/blackbox_6460_steps.png)
+33.4k steps:
+![](docs/blackbox_33440_steps.png)
+43.4k steps:
+![](docs/blackbox_43430_steps.png)
+
+
